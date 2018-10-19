@@ -34,7 +34,7 @@ Afin de déclarer un héritage il est nécessaire de déclarer la ligne suivante
 class Cetace : Mammifere
 ```
 
-Le consctructeur est le suivant:
+Le constructeur est le suivant:
 ```cs
 public Cetace(string nom, string lieuHabitation, string nomCrie, bool jeSuisDomestique, int dureeApnee, int profondeurPlonge)
   : base(nom, lieuHabitation, nomCrie, jeSuisDomestique)
@@ -43,4 +43,7 @@ public Cetace(string nom, string lieuHabitation, string nomCrie, bool jeSuisDome
   this.profondeurPlonge = profondeurPlonge;
 }
 ```
+
+De cette manière la classe Cétacé hérite des méthodes de la classe Mammifère.
+On peut donc dire, selon le constructeur, qu'un Cétacé est un Mammifère.
 
